@@ -10,15 +10,15 @@
  */
 public class ClienteTO {
     
-    private int odigo;
+    private int codigo;
     private String nome;
 
-    public int getOdigo() {
-        return odigo;
+    public int getCodigo() {
+        return codigo;
     }
 
-    public void setOdigo(int odigo) {
-        this.odigo = odigo;
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 
     public String getNome() {
