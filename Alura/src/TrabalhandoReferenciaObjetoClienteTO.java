@@ -20,7 +20,7 @@ public class TrabalhandoReferenciaObjetoClienteTO {
         
         System.out.println(obj1.getCodigo() + " " + obj2.getCodigo());
         
-        obj2 = obj1;
+        obj2 = obj1;    // equivalencia de objeto
         
         System.out.println(obj1.getCodigo() + " " + obj2.getCodigo());
         
