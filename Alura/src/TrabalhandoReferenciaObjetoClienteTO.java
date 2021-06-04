@@ -15,7 +15,22 @@ public class TrabalhandoReferenciaObjetoClienteTO {
         ClienteTO obj1 = new ClienteTO();
         ClienteTO obj2 = new ClienteTO();
         
+        obj1.setCodigo(1000);
+        obj2.setCodigo(2000);
         
+        System.out.println(obj1.getCodigo() + " " + obj2.getCodigo());
+        
+        obj2 = obj1;
+        
+        System.out.println(obj1.getCodigo() + " " + obj2.getCodigo());
+        
+        obj2.setCodigo(5000);
+        
+        System.out.println(obj1.getCodigo() + " " + obj2.getCodigo());
+        
+        obj1.setCodigo(10000);
+        
+        System.out.println(obj1.getCodigo() + " " + obj2.getCodigo());
         
     }
     
