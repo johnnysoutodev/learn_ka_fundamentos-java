@@ -29,6 +29,20 @@ public class ManipulacaoString {
         System.out.println(str3.isEmpty());
         
         System.out.println(nome.concat(espaco).concat(sobrenome));
+        
+        StringBuilder objStringBuilder = new StringBuilder("Joao ");
+        System.out.println(objStringBuilder);
+        System.out.println(objStringBuilder.hashCode());
+        objStringBuilder.append("Souto");
+        System.out.println(objStringBuilder);
+        System.out.println(objStringBuilder.hashCode());
+        
+        String objString = new String("Joao ");
+        System.out.println(objString);
+        System.out.println(objString.hashCode());
+        objString = objString.concat("Souto");
+        System.out.println(objString);
+        System.out.println(objString.hashCode());
             
     }
     
