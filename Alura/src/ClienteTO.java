@@ -38,6 +38,14 @@ public class ClienteTO {
     public static ClienteTO criaClienteTO(int codigo, String nome){
         return new ClienteTO(codigo, nome);
     }
+    
+    public static ClienteTO[] criaArrayClienteTO(int numero){
+        ClienteTO[] arrClienteTO = new ClienteTO[numero];
+        for(int x = 0; x < arrClienteTO.length; x++){
+            arrClienteTO[x] = new ClienteTO();
+        }
+        return arrClienteTO;
+    }
 
     public int getCodigo() {
         return codigo;
