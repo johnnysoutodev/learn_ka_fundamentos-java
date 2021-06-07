@@ -12,6 +12,32 @@ public class ClienteTO {
     
     private int codigo;
     private String nome;
+    
+    public ClienteTO(){
+        this.setCodigo(1);
+        this.setNome("Fulano");
+    }
+    
+    public ClienteTO(int codigo){
+        this.codigo = codigo;
+        this.setNome("Fulano");
+    }
+    
+    public ClienteTO(String nome){
+        this.setCodigo(1);
+        this.nome = nome;
+    }
+    
+    public ClienteTO(int codigo, String nome){
+        this.setCodigo(codigo);
+        this.setNome(nome);
+        //this.codigo = codigo;
+        //this.nome = nome;
+    }
+    
+    public static ClienteTO criaClienteTO(int codigo, String nome){
+        return new ClienteTO(codigo, nome);
+    }
 
     public int getCodigo() {
         return codigo;
