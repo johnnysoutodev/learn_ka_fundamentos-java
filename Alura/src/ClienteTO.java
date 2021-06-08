@@ -64,6 +64,8 @@ public class ClienteTO {
     }
     
     public static boolean validaClienteTO(ClienteTO objClienteTO){
+        //objClienteTO.setNome("Treinamento Java");
+        
         if(objClienteTO.getCodigo() > 10000){
             return false;
         }
