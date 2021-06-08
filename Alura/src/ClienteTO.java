@@ -63,7 +63,7 @@ public class ClienteTO {
         this.nome = nome;
     }
     
-    public boolean validaClienteTO(ClienteTO objClienteTO){
+    public static boolean validaClienteTO(ClienteTO objClienteTO){
         if(objClienteTO.getCodigo() > 10000){
             return false;
         }
