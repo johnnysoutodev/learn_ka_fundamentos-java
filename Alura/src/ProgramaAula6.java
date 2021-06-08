@@ -23,6 +23,10 @@ public class ProgramaAula6 {
         System.out.println(ClienteTO.validaClienteTO(new ClienteTO(2000000, "Kasolution")));
         System.out.println(ClienteTO.validaClienteTO(new ClienteTO(200000, "Ka")));
         System.out.println(ClienteTO.validaClienteTO(new ClienteTO(10000, "Kasolution")));
+        
+        ClienteTO objClienteTO2 = new ClienteTO(200000, "Kasolution");
+        objClienteTO2.validaClienteTO(objClienteTO2);
+        System.out.println(objClienteTO2.getNome());
     }
     
 }
