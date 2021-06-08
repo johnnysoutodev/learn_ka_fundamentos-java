@@ -19,6 +19,10 @@ public class ProgramaAula6 {
         for(int x = 0; x < objArrayClienteTO.length; x++){
             System.out.println(objArrayClienteTO[x].getCodigo() + " " + objArrayClienteTO[x].getNome());
         }
+        
+        System.out.println(ClienteTO.validaClienteTO(new ClienteTO(2000000, "Kasolution")));
+        System.out.println(ClienteTO.validaClienteTO(new ClienteTO(200000, "Ka")));
+        System.out.println(ClienteTO.validaClienteTO(new ClienteTO(10000, "Kasolution")));
     }
     
 }
