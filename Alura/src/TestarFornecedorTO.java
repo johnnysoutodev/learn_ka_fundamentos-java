@@ -18,6 +18,6 @@ public class TestarFornecedorTO {
         objFornec2.printFornecedor();
         
         System.out.println(objFornec1.equals(objFornec2));
-        System.out.println(objFornec1.hashCode());
+        System.out.println(objFornec1.hashCode() == objFornec2.hashCode());
     }
 }
