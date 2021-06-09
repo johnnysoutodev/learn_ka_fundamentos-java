@@ -81,6 +81,7 @@ public class FornecedorTO {
         System.out.println("E-mail:         " + this.getEmail());
         System.out.println("CNPJ:           " + this.getCNPJ());
         System.out.println("Razão Social:   " + this.getRazaoSocial());
+        System.out.println("--------------------------------------------------");
     }
 
     @Override
@@ -123,7 +124,5 @@ public class FornecedorTO {
         }
         return true;
     }
-    
-    
     
 }
