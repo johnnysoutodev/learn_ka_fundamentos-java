@@ -72,5 +72,12 @@ public class ClienteTO {
         
         return objClienteTO.getNome().length() > 2;
     }
+
+    @Override
+    public String toString() {
+        return "ClienteTO{" + "codigo=" + codigo + ", nome=" + nome + '}';
+    }
+    
+    
     
 }
