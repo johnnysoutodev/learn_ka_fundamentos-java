@@ -11,7 +11,7 @@ import java.util.Objects;
  *
  * @author johnny
  */
-public class EnderecoTO {
+public class EnderecoTO implements Impressao{
     
     private String logradouro;
     private String numero;
@@ -174,6 +174,12 @@ public class EnderecoTO {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public void imprimir() {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println(this.toString());
     }
     
     
