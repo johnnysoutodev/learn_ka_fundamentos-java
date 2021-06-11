@@ -32,7 +32,7 @@ public class ProgramaTestaClientePFTO {
         array.add(obj);
         array.add(obj2);
         array.add(obj3);
-        
+        obj3.imprimir();
     }
     
 }
