@@ -1,3 +1,9 @@
+
+
+
+import kasolution.excecoes.DadosInvalidosException;
+import kasolution.TO.ClienteTO;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,7 +16,7 @@
  */
 public class TrabalhandoReferenciaObjetoClienteTO {
     
-    public static void main (String args[]){
+    public static void main (String args[]) throws DadosInvalidosException{
     
         ClienteTO obj1 = new ClienteTO();
         ClienteTO obj2 = new ClienteTO();
