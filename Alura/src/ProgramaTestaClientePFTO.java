@@ -1,6 +1,8 @@
 
 
 
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -11,11 +13,14 @@
  *
  * @author johnny
  */
+import kasolution.excecoes.DadosInvalidosException;
+import kasolution.TO.ClientePFTO;
+import kasolution.TO.ClienteTO;
 import java.util.ArrayList;
 
 public class ProgramaTestaClientePFTO {
     
-    public static void main(String args[]){
+    public static void main(String args[]) throws DadosInvalidosException{
         
         ClientePFTO obj = new ClientePFTO(1,"Johnny","99999999999");
         ClientePFTO obj2 = new ClientePFTO(1,"Johnny","99999999999");
